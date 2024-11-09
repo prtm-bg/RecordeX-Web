@@ -26,6 +26,10 @@ app.get('/', (req, res)=>{
     res.render('main.ejs');
 })
 
+app.get('/recordex', (req, res)=>{
+    res.render('main.ejs');
+})
+
 app.get('/register', (req, res)=>{
     res.render('register.ejs')
 })
